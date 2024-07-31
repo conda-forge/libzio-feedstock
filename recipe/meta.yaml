@@ -33,7 +33,7 @@ test:
     - test -f ${PREFIX}/include/zio.h
 
 about:
-  home: https://github.com/simplejson/simplejson
+  home: https://sourceforge.net/projects/libzio/
   summary: 'File stream access for gzip/bzip2/zstd/lzma files'
   license: GPL-2.0-or-later
   license_file: COPYING
