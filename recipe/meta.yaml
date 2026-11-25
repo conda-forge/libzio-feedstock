@@ -2,10 +2,11 @@
 
 package:
   name: libzio
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
-  url: https://master.dl.sourceforge.net/project/libzio/libzio/libzio-{{ version }}.tar.bz2
+  # SourceForge no longer hosts 1.09; this immutable openSUSE revision has the identical archive.
+  url: https://api.opensuse.org/public/source/openSUSE:Factory/libzio/libzio-{{ version }}.tar.bz2?rev=f8663e6cbbe8f008cf3284eb1a15cbd6
   sha256: 588e0eda6c4bb0813d7383d6a69952f1de5796e580852812c1b3e331036e0157
   patches:
     - fix-makefile.diff
