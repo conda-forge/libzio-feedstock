@@ -23,6 +23,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib('c') }}
     - make
+    - xz-tools
   host:
     - zlib
     - zstd
